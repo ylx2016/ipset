@@ -11,9 +11,14 @@ tar -jxvf ipset-7.22.tar.bz2
 rm -rf ipset-7.22.tar.bz2
 cd ipset-7.22/
 #./configure
+#make install
+
 #./configure --enable-shared=no --enable-static=yes --prefix=/usr/local/ipset --disable-dependency-tracking
 
+#静态编译
 ./configure --enable-shared=no --enable-static=yes --disable-dependency-tracking
-make
+make install
 
-#编译好的在/tmp/ipset-7.22/src/ipset
+#清理
+
+rm -rf /tmp/ipset-7.22
