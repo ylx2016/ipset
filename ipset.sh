@@ -1,3 +1,7 @@
+#!/bin/bash
+
+apt update
+
 #要求内核大于3.11
 apt install gcc make libmnl-dev pkg-config wget tar gzip -y
 
