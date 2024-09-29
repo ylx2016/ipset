@@ -20,5 +20,5 @@ cd ipset-7.22/
 make install
 
 #清理
-
+apt remove gcc cpp -y
 rm -rf /tmp/ipset-7.22
