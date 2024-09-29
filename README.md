@@ -2,5 +2,5 @@
 
 只适配debian/ubuntu
 
-一键
+一键<br>
 curl -sSL https://github.com/ylx2016/ipset/raw/refs/heads/main/ipset.sh | bash
